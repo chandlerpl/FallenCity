@@ -33,27 +33,51 @@
 
 			</div>
 		</div>
-  
-    <p class="header"><span>Unity WebGL Player | </span>Fallen City</p>
-    <div class="template-wrap clear">
+  	
+    <div class="content main box-center">
+
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
       <div class="logo"></div>
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-      <div class="title">Fallen City</div>
     </div>
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    <script type='text/javascript'>
-  var Module = {
-    TOTAL_MEMORY: 268435456,
-    errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-    compatibilitycheck: null,
-    dataUrl: "Release/FallenCityWeb.data",
-    codeUrl: "Release/FallenCityWeb.js",
-    memUrl: "Release/FallenCityWeb.mem",
-  };
-</script>
+	
+	<script type='text/javascript'>
+	  var Module = {
+		TOTAL_MEMORY: 268435456,
+		errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+		compatibilitycheck: null,
+		dataUrl: "Release/FallenCityWeb.data",
+		codeUrl: "Release/FallenCityWeb.js",
+		memUrl: "Release/FallenCityWeb.mem",
+	  };
+	</script>
 <script src="Release/UnityLoader.js"></script>
 
+
+        <!-- Footer -->
+        <div class="footer">
+
+            <hr class="footer-line" />
+
+            <div class="main box-center layout-7030 clear-fix">
+
+                <!-- Social icons -->
+                <div class="layout-7030-right">
+
+                    <ul class="no-list social-list-1">
+                        <li>Connect</li>
+                        <li><a href="facebook.com/chandlerpl1" class="social-facebook"></a></li>
+                        <li><a href="twitter.com/chandlerpl" class="social-twitter"></a></li>
+                        <li><a href="skype:chandlerpl2?chat" class="social-skype"></a></li>
+                    </ul>
+                    
+                </div>
+                <!-- /Social icons -->
+
+            </div>
+
+        </div>
+        <!-- /Footer -->
   </body>
 </html>
